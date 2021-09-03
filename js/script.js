@@ -1,4 +1,4 @@
-import initSoftScroll from './modules/soft-scroll.js';
+import SoftScroll from './modules/soft-scroll.js';
 import initscrollAnimation from './modules/scroll-animation.js';
 import initAccordion from './modules/accordion.js';
 import initTabNavigation from './modules/tabnav.js';
@@ -10,7 +10,9 @@ import initOperation from './modules/operations.js';
 import initFetchAnimais from './modules/fetch-animais.js';
 import initFetchBitcoin from './modules/fetch-bitcoin.js';
 
-initSoftScroll();
+const softScroll = new SoftScroll('[data-menu="soft"] a[href^="#"]');
+softScroll.init();
+
 initscrollAnimation();
 initAccordion();
 initTabNavigation();
