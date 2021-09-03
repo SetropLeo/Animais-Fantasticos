@@ -1,5 +1,4 @@
 import SoftScroll from './modules/soft-scroll.js';
-import initscrollAnimation from './modules/scroll-animation.js';
 import initAccordion from './modules/accordion.js';
 import initTabNavigation from './modules/tabnav.js';
 import initModal from './modules/modal.js';
@@ -9,11 +8,11 @@ import initMenuMobile from './modules/menu-mobile.js';
 import initOperation from './modules/operations.js';
 import initFetchAnimais from './modules/fetch-animais.js';
 import initFetchBitcoin from './modules/fetch-bitcoin.js';
+import initscrollAnimation from './modules/scroll-animation.js';
 
 const softScroll = new SoftScroll('[data-menu="soft"] a[href^="#"]');
 softScroll.init();
 
-initscrollAnimation();
 initAccordion();
 initTabNavigation();
 initModal();
@@ -23,3 +22,4 @@ initMenuMobile();
 initOperation();
 initFetchAnimais();
 initFetchBitcoin();
+initscrollAnimation();
