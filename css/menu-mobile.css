@@ -31,7 +31,7 @@
     transition: transform 0.3s;
   }
 
-  .js [data-menu="button"].active::before {
+  .js [data-menu="button"].ativo::before {
     transform: rotate(90deg);
   }
 
@@ -46,7 +46,7 @@
     box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.2);
   }
 
-  .js [data-menu="list"].active {
+  .js [data-menu="list"].ativo {
     display: block;
     animation: show-right .3s forwards;
   }
