@@ -82,6 +82,9 @@ O projeto foi desenvolvido para estudar HTML, CSS, JS e aprender a usar Bash/Git
 <td>
   <img src="./images-readme/respcontato1.jpg"/>
 </td>
+<td>
+  <img src="./images-readme/respcontato2.jpg"/>
+</td>
 </tr>
 </table>
 
