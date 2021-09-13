@@ -36,7 +36,6 @@ menuMobile.init();
 
 const operation = new Operation('[data-semana]', 'aberto');
 operation.init();
-console.log(operation);
 
 fetchAnimais('../../animaisapi.json', '.numeros-grid');
 fetchBtc('https://blockchain.info/ticker', '.btc-preco');
