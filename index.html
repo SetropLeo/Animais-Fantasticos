@@ -1,228 +1,284 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" class="rel" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:700|Playfair+Display+SC&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      document.documentElement.className += ' js';
+    </script>
+    <title>Animais Fantásticos</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="./css/style.css" class="rel">
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap" rel="stylesheet">
-  <script>document.documentElement.className += ' js';</script>
-  <title>Animais Fantásticos</title>
-</head>
-
-<body>
-  <div class="grid-container">
-    <nav class="menu" data-menu="soft">
-      <button data-menu="button" aria-expanded="false" aria-controls="menu">Menu</button>
-      <ul data-menu="list" id="menu">
-        <li><a href="#animais">ANIMAIS</a></li>
-        <li data-dropdown>
-          <a href="sobre.html">Sobre</a>
-          <ul class="dropdown-menu">
-            <li><a href="empresa.html">A empresa</a></li>
-            <li><a href="equipe.html">Equipe</a></li>
-            <li><a href="socios.html">Sócios</a></li>
-            <li><a href="investidores.html">Investidores</a></li>
-          </ul>
-        </li>
-        <li><a href="#faq">FAQ</a></li>
-        <li><a href="#contato">CONTATO</a></li>
-        <li><a data-modal="abrir" href="login.html">Login 🠖</a></li>
-      </ul>
-    </nav>
-
-    <section class="grid-section animais" data-anime="scroll" id="animais">
-      <h1 class="titulo">Animais Fantásticos</h1>
-      <ul class="animais-lista" data-tab="menu">
-        <!-- Teste comentário -->
-        <li>
-          <img src="img/imagem1.jpg">
-        </li>
-        <li>
-          <img src="img/imagem2.jpg">
-        </li>
-        <li>
-          <img src="img/imagem3.jpg">
-        </li>
-        <li>
-          <img src="img/imagem4.jpg">
-        </li>
-        <li>
-          <img src="img/imagem5.jpg">
-        </li>
-        <li>
-          <img src="img/imagem6.jpg">
-        </li>
-      </ul>
-
-      <div class="animais-descricao" data-tab="content">
-        <section data-anime="show-down">
-          <h2>Raposa</h2>
-          <p>As raposas são animais mamíferos e onívoros pertencentes à família Canidae. São vulpídeos de porte médio,
-            caracterizados por um focinho comprido e uma cauda longa e peluda.
-          </p>
-          <p>Um mestre entusiasta da feitiçaria das trevas, aderiu a poderes dos quais poucos mortais se aproximam.
-          </p>
-          <p>De cerca de 40 espécies reconhecidas como raposas, somente 12 pertencem ao gênero Vulpes das "raposas
-            verdadeiras", do qual a raposa vermelha é a mais comum.
-          </p>
-          <p>E mesmo que ele acredite ser verdadeiramente mau, ele possui um senso de ética interior que leva alguns a
-            se
-            perguntarem sobre suas verdadeiras motivações.
-          </p>
-        </section>
-
-        <section data-anime="show-right">
-          <h2>Esquilo</h2>
-          <p>É um troll gigantesco e traiçoeiro com uma tendência particularmente perversa, e não há nada que ele não
-            possa submeter a cacetadas, nem mesmo a própria Freljord.
-          </p>
-          <p>Violentamente territorial, ele persegue qualquer um tolo o suficiente de entrar em seu domínio.
-          </p>
-          <p>Então, com seu enorme porrete de Gelo Verdadeiro, ele gela seus inimigos até os ossos e os empala com
-            pilares
-            dentados congelados, rindo enquanto eles sangram na tundra.
-          </p>
-        </section>
-
-        <section data-anime="show-down">
-          <h2>Urso</h2>
-          <p>Mãe de guerra Glacinata brutal e implacável da Garra do Inverno, uma das tribos mais temidas de Freljord
-          </p>
-          <p>A sobrevivência de seu povo é uma batalha constante e desesperada contra os elementos, forçando-os a pilhar
-            noxianos, demacianos e avarosianos para sobreviver aos invernos severos
-          </p>
-          <p>Ele lidera os ataques mais perigosos, montada no seu javali, Bristle, usando seu mangual de Gelo Verdadeiro
-            para congelar e despedaçar seus inimigos.
-          </p>
-        </section>
-
-        <section data-anime="show-right">
-          <h2>Lobo</h2>
-          <p>As raposas são animais mamíferos e onívoros pertencentes à família Canidae. São vulpídeos de porte médio,
-            caracterizados por um focinho comprido e uma cauda longa e peluda.
-          </p>
-          <p>De cerca de 40 espécies reconhecidas como raposas, somente 12 pertencem ao gênero Vulpes das "raposas
-            verdadeiras", do qual a raposa vermelha é a mais comum.
-          </p>
-          <p>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.
-          </p>
-        </section>
-
-        <section data-anime="show-down">
-          <h2>Macaco</h2>
-          <p>É um espírito alado e benevolente que suporta infinitos ciclos de vida, morte e renascimento para proteger
-            Freljord.
-          </p>
-          <p>Uma semideusa nascida de ventos impiedosos e frios brutais, ela carrega esses poderes elementais para
-            perseguir qualquer um que ousar perturbar sua terra natal.
-          </p>
-          <p>Guia e protege as tribos do norte hostil, que a reverenciam como um símbolo de esperança e como uma
-            portadora
-            de grandes mudanças
-          </p>
-        </section>
-
-        <section data-anime="show-right">
-          <h2>Leão</h2>
-          <p>Luta com todas as fibras do seu ser, sabendo que por meio do sacrifício, sua memória irá perdurar e ela
-            renascerá em um novo amanhã.
-          </p>
-          <p>Comanda a horda mais populosa do norte. Estoica, inteligente e idealista, mesmo que desconfortável com seu
-            papel de liderança, ela canaliza as magias ancestrais de sua linhagem para empunhar um arco de Gelo
-            Verdadeiro.
-          </p>
-          <p>Com a crença de seu povo de que seria a heroína mítica, Avarosa, reencarnada, ela espera unificar Freljord
-            mais uma vez, retomando suas antigas terras tribais.
-          </p>
-        </section>
-      </div>
-    </section>
-
-    <section class="grid-section faq" data-anime="scroll" id="faq">
-      <h1 class="titulo">FAQ</h1>
-      <dl class="faq-lista" data-anime="accordion">
-        <dt>Qual a idade dos animais?</dt>
-        <dd>As raposas são animais mamíferos e onívoros pertencentes à família Canidae. São vulpídeos de porte médio,
-          caracterizados por um focinho comprido e uma cauda longa e peluda.
-        </dd>
-
-        <dt>Eles são fantásticos?</dt>
-        <dd>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.
-        </dd>
-
-        <dt>Qual a diferença?</dt>
-        <dd>As raposas são animais mamíferos e onívoros pertencentes à família Canidae. São vulpídeos de porte médio,
-          caracterizados por um focinho comprido e uma cauda longa e peluda.</dd>
-
-        <dt>Como proteger?</dt>
-        <dd>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.
-        </dd>
-      </dl>
-    </section>
-
-    <section class="grid-section gallery" data-anime="scroll">
-      <ul class="custom-control">
-        <li><img src="img/slide/foto1.jpg" alt=""></li>
-        <li><img src="img/slide/foto2-thumb.jpg" alt=""></li>
-        <li><img src="img/slide/foto3-thumb.jpg" alt=""></li>
-        <li><img src="img/slide/foto4-thumb.jpg" alt=""></li>
-        <li><img src="img/slide/foto5-thumb.jpg" alt=""></li>
-        <li><img src="img/slide/foto6-thumb.jpg" alt=""></li>
-      </ul>
-      <div class="slide-wrapper">
-        <ul class="slide">
-          <li><img src="img/slide/foto1.jpg" alt=""></li>
-          <li><img src="img/slide/foto2.jpg" alt=""></li>
-          <li><img src="img/slide/foto3.jpg" alt=""></li>
-          <li><img src="img/slide/foto4.jpg" alt=""></li>
-          <li><img src="img/slide/foto5.jpg" alt=""></li>
-          <li><img src="img/slide/foto6.jpg" alt=""></li>
+  <body>
+    <div class="grid-container">
+      <nav class="menu" data-menu="soft">
+        <button data-menu="button" aria-expanded="false" aria-controls="menu">
+          Menu
+        </button>
+        <ul data-menu="list" id="menu">
+          <li><a href="#animais">ANIMAIS</a></li>
+          <li data-dropdown>
+            <a href="sobre.html">Sobre</a>
+            <ul class="dropdown-menu">
+              <li><a href="empresa.html">A empresa</a></li>
+              <li><a href="equipe.html">Equipe</a></li>
+              <li><a href="socios.html">Sócios</a></li>
+              <li><a href="investidores.html">Investidores</a></li>
+            </ul>
+          </li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contato">CONTATO</a></li>
+          <li>
+            <a data-modal="abrir" href="login.html"
+              >Login <span class="arrow-black"></span
+            ></a>
+          </li>
         </ul>
-      </div>
-    </section>
+      </nav>
 
-    <section class="grid-section numeros" data-anime="scroll">
-      <h1 class="titulo">Números</h1>
-      <div class="numeros-grid">
-      </div>
-    </section>
+      <section class="grid-section animais" data-anime="scroll" id="animais">
+        <h1 class="titulo">Animais Fantásticos</h1>
+        <ul class="animais-lista" data-tab="menu">
+          <!-- Teste comentário -->
+          <li>
+            <img src="img/imagem1.jpg" />
+          </li>
+          <li>
+            <img src="img/imagem2.jpg" />
+          </li>
+          <li>
+            <img src="img/imagem3.jpg" />
+          </li>
+          <li>
+            <img src="img/imagem4.jpg" />
+          </li>
+          <li>
+            <img src="img/imagem5.jpg" />
+          </li>
+          <li>
+            <img src="img/imagem6.jpg" />
+          </li>
+        </ul>
 
-    <section class="grid-section contato" data-anime="scroll" id="contato">
-      <h1 class="titulo">Contato</h1>
-      <div class="mapa" data-tooltip aria-label="Endereço próximo à Temakeria">
-        <img src="img/mapa2.png">
-      </div>
-      <ul class="dados">
-        <li>leol_portes@hotmail.com</li>
-        <li>+55 (48) 99908-4670</li>
-        <li>R. João Batista D'aláscio, n° 75</li>
-        <li>Florianópolis - SC</li>
-        <li>Doe <span class="btc-preco">0</span> bitcoin para nos ajudar</li>
-        <li data-semana="1,2,3,4,5" data-horario="8,18">Seg a Sex das 8 às 18h</li>
-      </ul>
-    </section>
+        <div class="animais-descricao" data-tab="content">
+          <section data-anime="show-down">
+            <h2>Raposa</h2>
+            <p>
+              As raposas são animais mamíferos e onívoros pertencentes à família
+              Canidae. São vulpídeos de porte médio, caracterizados por um
+              focinho comprido e uma cauda longa e peluda.
+            </p>
+            <p>
+              Um mestre entusiasta da feitiçaria das trevas, aderiu a poderes
+              dos quais poucos mortais se aproximam.
+            </p>
+            <p>
+              De cerca de 40 espécies reconhecidas como raposas, somente 12
+              pertencem ao gênero Vulpes das "raposas verdadeiras", do qual a
+              raposa vermelha é a mais comum.
+            </p>
+            <p>
+              E mesmo que ele acredite ser verdadeiramente mau, ele possui um
+              senso de ética interior que leva alguns a se perguntarem sobre
+              suas verdadeiras motivações.
+            </p>
+          </section>
 
-    <footer class="copy">
-      <p> © Todos os direitos reservados.</p>
-    </footer>
-  </div>
+          <section data-anime="show-right">
+            <h2>Esquilo</h2>
+            <p>
+              É um troll gigantesco e traiçoeiro com uma tendência
+              particularmente perversa, e não há nada que ele não possa submeter
+              a cacetadas, nem mesmo a própria Freljord.
+            </p>
+            <p>
+              Violentamente territorial, ele persegue qualquer um tolo o
+              suficiente de entrar em seu domínio.
+            </p>
+            <p>
+              Então, com seu enorme porrete de Gelo Verdadeiro, ele gela seus
+              inimigos até os ossos e os empala com pilares dentados congelados,
+              rindo enquanto eles sangram na tundra.
+            </p>
+          </section>
 
-  <section class="modal-container" data-modal="container">
-    <div class="modal">
-      <button class="fechar" data-modal="fechar">X</button>
-      <form action="">
-        <label for="email">Email</label>
-        <input type="text" for="email" id="email">
-        <label for="senha">Senha</label>
-        <input type="password" for="senha" id="senha">
-        <button type="submit">Entrar</button>
-      </form>
+          <section data-anime="show-down">
+            <h2>Urso</h2>
+            <p>
+              Mãe de guerra Glacinata brutal e implacável da Garra do Inverno,
+              uma das tribos mais temidas de Freljord
+            </p>
+            <p>
+              A sobrevivência de seu povo é uma batalha constante e desesperada
+              contra os elementos, forçando-os a pilhar noxianos, demacianos e
+              avarosianos para sobreviver aos invernos severos
+            </p>
+            <p>
+              Ele lidera os ataques mais perigosos, montada no seu javali,
+              Bristle, usando seu mangual de Gelo Verdadeiro para congelar e
+              despedaçar seus inimigos.
+            </p>
+          </section>
+
+          <section data-anime="show-right">
+            <h2>Lobo</h2>
+            <p>
+              As raposas são animais mamíferos e onívoros pertencentes à família
+              Canidae. São vulpídeos de porte médio, caracterizados por um
+              focinho comprido e uma cauda longa e peluda.
+            </p>
+            <p>
+              De cerca de 40 espécies reconhecidas como raposas, somente 12
+              pertencem ao gênero Vulpes das "raposas verdadeiras", do qual a
+              raposa vermelha é a mais comum.
+            </p>
+            <p>
+              Também apresentam como particularidade suas pupilas ovais,
+              semelhantes às pupilas verticais dos felídeos.
+            </p>
+          </section>
+
+          <section data-anime="show-down">
+            <h2>Macaco</h2>
+            <p>
+              É um espírito alado e benevolente que suporta infinitos ciclos de
+              vida, morte e renascimento para proteger Freljord.
+            </p>
+            <p>
+              Uma semideusa nascida de ventos impiedosos e frios brutais, ela
+              carrega esses poderes elementais para perseguir qualquer um que
+              ousar perturbar sua terra natal.
+            </p>
+            <p>
+              Guia e protege as tribos do norte hostil, que a reverenciam como
+              um símbolo de esperança e como uma portadora de grandes mudanças
+            </p>
+          </section>
+
+          <section data-anime="show-right">
+            <h2>Leão</h2>
+            <p>
+              Luta com todas as fibras do seu ser, sabendo que por meio do
+              sacrifício, sua memória irá perdurar e ela renascerá em um novo
+              amanhã.
+            </p>
+            <p>
+              Comanda a horda mais populosa do norte. Estoica, inteligente e
+              idealista, mesmo que desconfortável com seu papel de liderança,
+              ela canaliza as magias ancestrais de sua linhagem para empunhar um
+              arco de Gelo Verdadeiro.
+            </p>
+            <p>
+              Com a crença de seu povo de que seria a heroína mítica, Avarosa,
+              reencarnada, ela espera unificar Freljord mais uma vez, retomando
+              suas antigas terras tribais.
+            </p>
+          </section>
+        </div>
+      </section>
+
+      <section class="grid-section faq" data-anime="scroll" id="faq">
+        <h1 class="titulo">FAQ</h1>
+        <dl class="faq-lista" data-anime="accordion">
+          <dt>Qual a idade dos animais?</dt>
+          <dd>
+            As raposas são animais mamíferos e onívoros pertencentes à família
+            Canidae. São vulpídeos de porte médio, caracterizados por um focinho
+            comprido e uma cauda longa e peluda.
+          </dd>
+
+          <dt>Eles são fantásticos?</dt>
+          <dd>
+            Também apresentam como particularidade suas pupilas ovais,
+            semelhantes às pupilas verticais dos felídeos.
+          </dd>
+
+          <dt>Qual a diferença?</dt>
+          <dd>
+            As raposas são animais mamíferos e onívoros pertencentes à família
+            Canidae. São vulpídeos de porte médio, caracterizados por um focinho
+            comprido e uma cauda longa e peluda.
+          </dd>
+
+          <dt>Como proteger?</dt>
+          <dd>
+            Também apresentam como particularidade suas pupilas ovais,
+            semelhantes às pupilas verticais dos felídeos.
+          </dd>
+        </dl>
+      </section>
+
+      <section class="grid-section gallery" data-anime="scroll">
+        <ul class="custom-control">
+          <li><img src="img/slide/foto1.jpg" alt="" /></li>
+          <li><img src="img/slide/foto2-thumb.jpg" alt="" /></li>
+          <li><img src="img/slide/foto3-thumb.jpg" alt="" /></li>
+          <li><img src="img/slide/foto4-thumb.jpg" alt="" /></li>
+          <li><img src="img/slide/foto5-thumb.jpg" alt="" /></li>
+          <li><img src="img/slide/foto6-thumb.jpg" alt="" /></li>
+        </ul>
+        <div class="slide-wrapper">
+          <ul class="slide">
+            <li><img src="img/slide/foto1.jpg" alt="" /></li>
+            <li><img src="img/slide/foto2.jpg" alt="" /></li>
+            <li><img src="img/slide/foto3.jpg" alt="" /></li>
+            <li><img src="img/slide/foto4.jpg" alt="" /></li>
+            <li><img src="img/slide/foto5.jpg" alt="" /></li>
+            <li><img src="img/slide/foto6.jpg" alt="" /></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="grid-section numeros" data-anime="scroll">
+        <h1 class="titulo">Números</h1>
+        <div class="numeros-grid"></div>
+      </section>
+
+      <section class="grid-section contato" data-anime="scroll" id="contato">
+        <h1 class="titulo">Contato</h1>
+        <div
+          class="mapa"
+          data-tooltip
+          aria-label="Endereço próximo à Temakeria"
+        >
+          <img src="img/mapa2.png" />
+        </div>
+        <ul class="dados">
+          <li>leol_portes@hotmail.com</li>
+          <li>+55 (48) 99908-4670</li>
+          <li>R. João Batista D'aláscio, n° 75</li>
+          <li>Florianópolis - SC</li>
+          <li>Doe <span class="btc-preco">0</span> bitcoin para nos ajudar</li>
+          <li data-semana="1,2,3,4,5" data-horario="8,18">
+            Seg a Sex das 8 às 18h
+          </li>
+        </ul>
+      </section>
+
+      <footer class="copy">
+        <p>© Todos os direitos reservados.</p>
+      </footer>
     </div>
-  </section>
 
-  <script src="./main.js/main.js"></script>
-</body>
+    <section class="modal-container" data-modal="container">
+      <div class="modal">
+        <button class="fechar" data-modal="fechar"></button>
+        <form action="">
+          <label for="email">Email</label>
+          <input type="text" for="email" id="email" />
+          <label for="senha">Senha</label>
+          <input type="password" for="senha" id="senha" />
+          <button type="submit">Entrar</button>
+        </form>
+      </div>
+    </section>
 
+    <script src="./main.js/main.js"></script>
+  </body>
 </html>
